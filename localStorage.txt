@@ -1,0 +1,43 @@
+localStorage is the HTML5 Feature used to store data in 
+key value pair format.
+
+JS provides a global object called localStorage, using this, 
+we can call utilities of local storage.
+
+
+note : keys must be unique and string and values can be of any type 
+but it gets stored as string only.
+
+setItem(key,value): This function is used to set an item (key,value)
+to the localStorage. if the key already exists, then the value 
+attached with the key will be overwritten.
+
+getItem(key): This function is used to get an item based on  the 
+key provided.
+
+ex:
+
+<html>
+    <head>
+
+    </head>
+    
+    <body>
+
+        <script>
+            var value={"xyz":"zyz"};
+            //localStorage.setItem('comment',JSON.stringify(value));
+
+            console.log(JSON.parse(localStorage.getItem('comment')));
+
+        </script>
+
+    </body>
+
+</html>
+
+
+
+
+
+

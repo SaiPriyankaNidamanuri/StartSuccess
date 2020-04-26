@@ -1,0 +1,34 @@
+<html>
+    <head>
+
+    </head>
+
+     <body>
+
+        <form>
+
+            Username:<input type="text" id="username" > <span id="u_msg"></span> <br><br>
+            Your comment:<textarea id="comment"></textarea> <span id="c_msg"></span> <br><br>
+            <button id="addCommentBtn" onclick="addComment()">Add Comment</button>
+            <button id="saveCommentBtn" >Save</button>
+
+        </form>
+
+        <form id="replyForm">
+                Username:<input type="text" id="r_username" > <br><br>
+                Your Reply:<textarea id="r_comment"></textarea> <br><br>
+                <button id="addReplyBtn">Add Reply</button>
+            
+        </form>
+
+        <ul id="comments">
+ 
+            
+
+        </ul>
+
+         <script src="index.js"></script>
+
+     </body>
+     
+</html>

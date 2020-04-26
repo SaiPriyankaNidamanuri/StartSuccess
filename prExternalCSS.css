@@ -1,0 +1,14 @@
+﻿body
+{background-color:#f0a016;
+background-image:url("pic.jpg");
+background-repeat:no-repeat;
+background-position:top left;
+background-attachment:fixed;
+margin-left:30px;
+margin-right:30px;
+}
+#borders{border-style:inset; 
+border-width:1px;
+border-bottom-style:ridge;
+padding-top:3px;
+border-color=#301730}

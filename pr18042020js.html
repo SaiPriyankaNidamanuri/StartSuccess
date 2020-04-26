@@ -1,0 +1,18 @@
+﻿<html>
+<head>
+    <title>pr18042020 js</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<i onClick="shareIncremental()" class="fa fa-share-alt" style="font-size:36px"></i> <span id="count">0</span> shares
+<script>
+function shareIncremental(){
+var share=parseInt(document.getElementByID("count").innerHTML);
+share= share+1;
+document.getElementById("count").innerHTML=share;
+
+}
+
+</script>
+</body>
+</html>
